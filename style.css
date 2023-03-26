@@ -1,0 +1,44 @@
+html,body{
+    height:100%;
+    width: 100%;
+    font-family: 'Roboto',  sans-serif;
+    background-color: rgb(211, 254, 254);
+    margin: 50px 10px;
+}
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor:pointer;
+    background-color: rgb(214, 246, 234);
+}
+.row{
+    margin: 8px 0;
+}
+.op{
+    background-color: rgb(130, 224, 192);
+}
+
+.row input{
+    font-size: 19px;
+    padding: 10px 5px;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: right;
+}
+.con {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.bg{
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
